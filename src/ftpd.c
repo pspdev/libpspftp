@@ -209,7 +209,7 @@ ftpdLoop(SceSize argc, void *argv)
       if (sockClient & 0x80000000) goto done;
 
     MftpConnection* con=(MftpConnection*)malloc(sizeof(MftpConnection));
-    if (sceNetApctlGetInfo(8, (union SceNetApctlInfo*)con->serverIp) != 0) {
+    if (sceNetApctlGetInfo(8, (void*)con->serverIp) != 0) {
       goto done;
     }
 

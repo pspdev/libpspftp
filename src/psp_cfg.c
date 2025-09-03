@@ -2,11 +2,9 @@
  *  Copyright (C) 2006 Zx / Ludovic Jacomme (ludovic.jacomme@gmail.com)
  */
 
-#include <stdio.h>
 #include "std.h"
 #include "ftp.h"
 #include "psp_init.h"
-#include <string.h>
 #include "psp_cfg.h"
 
  mftpConfig_t mftp_config;

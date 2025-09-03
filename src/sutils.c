@@ -1,6 +1,7 @@
-#include "sutils.h"
-#include <string.h>
+#include "std.h"
 #include <pspiofilemgr_dirent.h>
+#include "sutils.h"
+
 
 char* skipWS(char* s) {
     while ((*s)==' ' || (*s)=='\t') {
