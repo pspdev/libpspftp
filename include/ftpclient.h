@@ -5,7 +5,7 @@
 extern "C"{
 #endif
 
-#include "my_socket.h"
+#include "ftp_socket.h"
 
 #define TRANSFER_BUFFER_SIZE     4096    // Buffer size for transfer
 #define MAX_FILES                 256        // MAX files in a list

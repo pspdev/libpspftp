@@ -6,7 +6,7 @@ extern "C"{
 #endif
 
 //#include "nlh.h"
-#include "my_socket.h"
+#include "ftp_socket.h"
 
 #define MAX_USER_LENGTH 50
 #define MAX_PASS_LENGTH 50
